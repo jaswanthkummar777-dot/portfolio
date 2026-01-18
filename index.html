@@ -16,8 +16,24 @@
             padding-bottom: 5px;
         }
         section { margin-bottom: 30px; }
-    </style>
-    <style>
+        <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+h1 { color: #000; }
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+section { margin-bottom: 30px; }
+
+/* Certificate container */
 .certificate {
   margin-bottom: 25px;
   padding: 15px;
@@ -25,11 +41,17 @@
   background: #f9f9f9;
 }
 
-.certificate img {
+/* Certificate images (IMPORTANT FIX) */
+.cert-img {
+  width: 250px;
+  max-height: 160px;
+  object-fit: cover;
+  display: block;
   margin-top: 10px;
   border: 1px solid #ccc;
 }
 
+/* Links */
 .certificate a {
   text-decoration: none;
   font-weight: bold;
@@ -323,6 +345,7 @@ These videos represent the level I reached through continuous practice and self-
     </a>
   </li>
 </ul>
+
 
 
 
